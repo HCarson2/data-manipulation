@@ -1,3 +1,4 @@
+//Part 1
 //Four numbers that add up to 50
 let n1 = 10;
 let n2 = 15;
@@ -19,3 +20,17 @@ console.log(`Result of arithmetic chain: ${result}`);
 // Check if a number is greater than 25 without using '!'
 let isGreaterThan25 = n1 > 25;
 console.log(`Is the first number greater than 25? ${isGreaterThan25}`);
+
+//Part 2
+//How many gallons of fuel is needed for the trip
+//What is the cost of the fuel for the trip
+//How long will the trip take
+let totalDistance = 1500;
+let milesPerGallonA = 30;
+let speedA = 55;
+let gallonsNeededA = totalDistance / milesPerGallonA;
+let fuelCostA = gallonsNeededA * 3.00;
+let tripDurationA = totalDistance / speedA;
+console.log(`Gallons needed for the trip: ${gallonsNeededA}`);//=50 gallons
+console.log(`Cost of the fuel for the trip: ${fuelCostA}`);//=150
+console.log(`Trip duration: ${tripDurationA}`);//=27.27 hours 
