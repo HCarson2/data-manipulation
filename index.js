@@ -16,3 +16,6 @@ console.log(`Is the first number larger than the last? ${firstLargerThanLast}`);
 let result = ((n2 - n1) * n3) % n4;
 console.log(`Result of arithmetic chain: ${result}`); 
 
+// Check if a number is greater than 25 without using '!'
+let isGreaterThan25 = n1 > 25;
+console.log(`Is the first number greater than 25? ${isGreaterThan25}`);
