@@ -58,3 +58,5 @@ console.log(`Trip duration: ${tripDurationA}`);//=25 hour trip
 console.log(`Gallons needed for the trip: ${gallonsNeededC}`);//=65.21 gallons
 console.log(`Cost of the fuel for the trip: ${fuelCostC}`);//=$195.63 fuel cost
 console.log(`Trip duration: ${tripDurationC}`);//=20 hour trip  
+//result
+console.log(`Trip A is the most efficient trip.`);
