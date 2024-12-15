@@ -48,15 +48,17 @@ let tripDurationC = totalDistance / speedC;
 
 //log trip A
 console.log(`Gallons needed for the trip: ${gallonsNeededB}`);//=50 gallons
-console.log(`Cost of the fuel for the trip: ${fuelCostB}`);//=$150 fuel cost
+console.log(`I can afford this trip, because the cost of the fuel for the trip is: ${fuelCostB}`);//=$150 fuel cost
 console.log(`Trip duration: ${tripDurationB}`);//=27.27 hour trip
 //log trip B
 console.log(`Gallons needed for the trip: ${gallonsNeededA}`);//=53.57 gallons
-console.log(`Cost of the fuel for the trip: ${fuelCostA}`);//=$160.71 fuel cost
+console.log(`I can afford this trip, because the cost of the fuel for the trip is: ${fuelCostA}`);//=$160.71 fuel cost
 console.log(`Trip duration: ${tripDurationA}`);//=25 hour trip
 //log trip C
 console.log(`Gallons needed for the trip: ${gallonsNeededC}`);//=65.21 gallons
-console.log(`Cost of the fuel for the trip: ${fuelCostC}`);//=$195.63 fuel cost
+console.log(`I can not afford this trip, because the cost of the fuel for the trip is: ${fuelCostC}`);//=$195.63 fuel cost
 console.log(`Trip duration: ${tripDurationC}`);//=20 hour trip  
 //result
 console.log(`Trip A is the most efficient trip.`);
+//Part 3
+
